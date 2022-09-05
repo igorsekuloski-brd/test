@@ -1,0 +1,6 @@
+section .data                                                                   
+msg db 'PTD-303 SESSION', 0xa                                                   
+len equ $ -msg                                                                  
+TEST 12                                                                         
+EDIT                                                                            
+**                                                                              
