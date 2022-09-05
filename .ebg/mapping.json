@@ -1,0 +1,35 @@
+{
+  "version" : 4,
+  "url" : "http://b5rqzy2.dhcp.broadcom.net:9999",
+  "git" : {
+    "context" : "igorsekuloski-brd",
+    "repository" : "test",
+    "cloneUrl" : "https://github.com/igorsekuloski-brd/test.git",
+    "branch" : "ttt"
+  },
+  "endevor" : {
+    "connection" : "tso",
+    "baseUrl" : "http://tso1.lvn.broadcom.net:50002/EndevorService/rest",
+    "configuration" : "WEBSALC"
+  },
+  "branches" : [ {
+    "name" : "ttt",
+    "environment" : "DEV",
+    "stageNumber" : 1,
+    "systems" : [ {
+      "name" : "ALC",
+      "alias" : null,
+      "subsystems" : [ {
+        "name" : "ALCPTC",
+        "alias" : null,
+        "filter" : {
+          "elements" : [ ],
+          "types" : [ "ASM" ]
+        }
+      } ],
+      "filter" : null
+    } ],
+    "mappingMode" : "FULL",
+    "readOnly" : false
+  } ]
+}

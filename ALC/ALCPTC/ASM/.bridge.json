@@ -1,0 +1,28 @@
+{
+  "elements" : {
+    "PTD303" : {
+      "processorGroup" : "ASMNBL"
+    },
+    "SCMACT01" : {
+      "processorGroup" : "ASMNBL"
+    },
+    "SCMACT02" : {
+      "processorGroup" : "ASMNBL"
+    },
+    "TESTE1" : {
+      "processorGroup" : "ASMNBL"
+    },
+    "TSTDFCT" : {
+      "processorGroup" : "ASMNBL"
+    }
+  },
+  "defaultProcessorGroup" : "ASMNBL",
+  "definedProcessorGroups" : [ {
+    "name" : "*NOPROC*",
+    "description" : "NO PROCESSORS ASSIGNED"
+  }, {
+    "name" : "ASMNBL",
+    "description" : "ASSEMBLE AND LINK-EDIT, LISTING IS STORED"
+  } ],
+  "fileExtension" : ""
+}

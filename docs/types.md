@@ -1,0 +1,70 @@
+# **Endevor types and processor groups**
+### Branch **ttt**
+**System ALC**  
+  
+| Type | Processor Group Name | Description   |  
+| :----- | :----- | :----- |  
+| ASM |  | ASSEMBLER SOURCE CODE |  
+|  | \*NOPROC\* | NO PROCESSORS ASSIGNED |  
+|  | ASMNBL __`(Default)`__ | ASSEMBLE AND LINK-EDIT, LISTING IS STORED |  
+| COBOL |  | COBOL SOURCE CODE |  
+|  | \*NOPROC\* | NO PROCESSORS ASSIGNED |  
+|  | BROKEN | INTENTIONALLY BROKEN PROCESSOR |  
+|  | CAWDEMV | COBOL/LE compile |  
+|  | CIINBL | COBOL II COMPILE AND LINK, LISTING IS STORED |  
+|  | CLDUMMY | CLDUMMY |  
+|  | CLDUMMY1 | CLDUMMY |  
+|  | CLENBL __`(Default)`__ | COBOL/LE COMPILE AND LINK, LISTING IS STORED |  
+|  | CLENBL1 | COBOL/LE COMPILE AND LINK, LISTING IS STORED |  
+|  | CLENBL12 | COBOL/LE COMPILE AND LINK, LISTING IS STORED |  
+|  | CLENBL2 | COBOL/LE COMPILE AND LINK, LISTING IS STORED |  
+|  | CLENBL3 | COBOL/LE COMPILE AND LINK, LISTING IS STORED |  
+|  | CLENBL4 | COBOL/LE COMPILE AND LINK, LISTING IS STORED |  
+|  | CLENBL5 | COBOL/LE COMPILE AND LINK, LISTING IS STORED |  
+|  | COBCICS | COBOL FOR CICS: COMPILE, LINK, LISTING TO PROTSYM |  
+|  | DB2DEMO | db2demo processor group |  
+|  | LEMC2 | Assemble MARBLES W/CICS cmd process |  
+|  | MARBPROC | Assemble CTs W/CICS cmd process |  
+| COPY |  | COBOL COPYBOOK |  
+|  | \*NOPROC\* | NO PROCESSORS ASSIGNED |  
+| COPYEMF |  | COBOL COPYBOOK |  
+| CPGM |  | TYPE CONTAINING C type ELEMENTS |  
+|  | \*NOPROC\* | NO PROCESSORS ASSIGNED |  
+| DENV |  | DYMAMIC ENVIRONMENT TYYPE |  
+|  | DYNENV __`(Default)`__ | DYNAMIC ENVIRONMENT GROUP |  
+| EMPTYTES |  | empty test file extension type |  
+|  | \*NOPROC\* | PROCESSOR GROUP FOR COBOL |  
+| EXE |  | TYPE CONTAINING BINARY ELEMENTS |  
+|  | \*NOPROC\* | NO PROCESSORS ASSIGNED |  
+| GKO |  | gko elements repository |  
+|  | \*NOPROC\* | NOPROC |  
+| JAVA |  | JAVA elements repository |  
+|  | \*NOPROC\* | java elements |  
+|  | CLENBL | COBOL/LE COMPILE AND LINK, LISTING IS STORED |  
+|  | JPGDUMMY | dummy proc group |  
+|  | TESTSYMB | test symbolics |  
+| LINKCARD |  | LINK EDIT CONTROL STATEMENTS |  
+|  | \*NOPROC\* | LINK EDIT CONTROL CARDS |  
+| LNK |  | LNK ELEMENTS |  
+|  | \*NOPROC\* | LINK ELEMENTS |  
+|  | LOAD | LINK ELEMENTS |  
+| LNKINC |  | LNKINC ELEMENTS |  
+|  | \*NOPROC\* | LINK ELEMENTS |  
+| LOAD |  | SOURCELESS LOAD MODULES |  
+|  | \*NOPROC\* | NO PROCESSORS ASSIGNED |  
+|  | LOADONLY __`(Default)`__ | SOURCELESS LOAD PRPCESSOR GROUP |  
+| MACRO |  | ASSEMBLER MACROS |  
+|  | \*NOPROC\* | NO PROCESSORS ASSIGNED |  
+| PARM |  | SORT AND UTILITY PARAMETER CARDS |  
+|  | \*NOPROC\* | NO PROCESSORS ASSIGNED |  
+| SANDBOX |  | Sandbox (de)allocations |  
+|  | \*NOPROC\* | SANDBOX PROCESSOR GROUP |  
+|  | DEPLOY4T | CREATE A DEPLOY FOR TEST SANDBOX |  
+|  | SANDBOX __`(Default)`__ | SANDBOX PROCESSOR GROUP |  
+| TEST |  | test type |  
+|  | \*NOPROC\* | TEST SYMBOLICS PROCESSOR |  
+|  | TESTSYMB __`(Default)`__ | TEST SYMBOLICS PROCESSOR |  
+| TEST2 |  | test type |  
+|  | \*NOPROC\* | test2 |  
+
+
